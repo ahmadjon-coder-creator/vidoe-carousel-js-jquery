@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <main>
+        <section class="project">
+            <div class="container-fluid-hero">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--<div><a class="btn primary" href="/portfolio/portfolio.php" target="_blank">Back to Portfolio</a></div>-->
+                        <div class="carousel-container">
+                            <div class="carousel-inner">
+                                <div class="carousel-slide fade">
+                                    <figure id="test-video1"
+                                        onclick="videoslider('https://www.rebeccamagar.com/assets/videos/test-video-1.mp4')">
+                                        <video  id="video1 video" controls preload="metadata"
+                                            poster="https://www.rebeccamagar.com/assets/videos/test-video-1.jpg">
+                                            <source src="https://www.rebeccamagar.com/assets/videos/test-video-1.mp4"
+                                                type="video/mp4">
+                                            <source src="https://www.rebeccamagar.com/assets/videos/test-video-1.webm"
+                                                type="video/webm">
+                                            <source src="https://www.rebeccamagar.com/assets/videos/test-video-1.ogg"
+                                                type="video/ogg">
+                                            <!-- Flash fallback -->
+                                            <object type="application/x-shockwave-flash"
+                                                data="flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-1.mp4">
+                                                <param name="movie"
+                                                    value="flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-1.mp4" />
+                                                <param name="allowfullscreen" value="true" />
+                                                <param name="wmode" value="transparent" />
+                                                <param name="flashvars"
+                                                    value="controlbar=over&amp;image=https://www.rebeccamagar.com/assets/videos/test-video-1.jpg&amp;file=flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-1.mp4" />
+                                                <img alt="Test Video Poster 1"
+                                                    src="https://www.rebeccamagar.com/assets/videos/test-video-1.jpg"
+                                                    title="No video playback possible, please download the video from the link below." />
+                                            </object>
+                                            <!-- Offer download -->
+                                            <a href="https://www.rebeccamagar.com/assets/videos/test-video-1.mp4">Download
+                                                MP4</a>
+                                        </video>
+                                    </figure>
+                                </div>
+
+                                <div class="carousel-slide fade">
+                                    <figure id="test-video2"
+                                        onclick="videoslider('https://www.rebeccamagar.com/assets/videos/test-video-2.mp4')">
+                                        <video id="video2 video" controls preload="metadata"
+                                            poster="https://www.rebeccamagar.com/assets/videos/test-video-2.jpg">
+                                            <source class="clip"
+                                                src="https://www.rebeccamagar.com/assets/videos/test-video-2.mp4"
+                                                type="video/mp4">
+                                            <source class="clip"
+                                                src="https://www.rebeccamagar.com/assets/videos/test-video-2.webm"
+                                                type="video/webm">
+                                            <source class="clip"
+                                                src="https://www.rebeccamagar.com/assets/videos/test-video-2.ogg"
+                                                type="video/ogg">
+                                            <!-- Flash fallback -->
+                                            <object class="clip" type="application/x-shockwave-flash"
+                                                data="flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-2.mp4">
+                                                <param name="movie"
+                                                    value="flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-2.mp4" />
+                                                <param class="clip" name="allowfullscreen" value="true" />
+                                                <param class="clip" name="wmode" value="transparent" />
+                                                <param class="clip" name="flashvars"
+                                                    value="controlbar=over&amp;image=https://www.rebeccamagar.com/assets/videos/test-video-2.jpg&amp;file=flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-2.mp4" />
+                                                <img alt="Test 2 Video Poster"
+                                                    src="https://www.rebeccamagar.com/assets/videos/test-video-2.jpg"
+                                                    title="No video playback possible, please download the video from the link below." />
+                                            </object>
+                                            <!-- Offer download -->
+                                            <a href="https://www.rebeccamagar.com/assets/videos/test-video-2.mp4">Download
+                                                MP4</a>
+                                        </video>
+                                    </figure>
+                                </div>
+
+                                <div class="carousel-slide fade">
+                                    <h3>Title here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper odio
+                                        at mauris lobortis lacinia. In dignissim magna vitae consectetur euismod.
+                                        Vestibulum nec convallis ante. Pellentesque quam arcu, commodo at suscipit quis,
+                                        tempus a ipsum. Praesent eget sapien porttitor, scelerisque nisi sed, placerat
+                                        magna. Donec nec velit metus. Maecenas gravida scelerisque urna, sed rutrum
+                                        lorem suscipit eu. Aliquam elementum eget diam at suscipit. Sed ac tellus massa.
+                                        Mauris interdum ex vel sapien semper luctus. Fusce blandit ultricies eros sed
+                                        rutrum.</p>
+                                    <p>Vestibulum commodo consectetur quam. Duis ullamcorper sollicitudin massa non
+                                        dictum. Nunc malesuada leo eu erat tempus, eget hendrerit erat auctor.
+                                        Suspendisse a consectetur quam. Cras tempor et libero nec maximus. Cras accumsan
+                                        condimentum malesuada. Duis sed varius turpis. Quisque eget dolor eget felis
+                                        mollis accumsan eu vel lectus. Quisque a sodales turpis, vitae viverra tellus.
+                                        Pellentesque et faucibus nibh, at ultrices mauris. In enim nulla, ultrices
+                                        placerat purus a, pretium tincidunt ante. Sed cursus lectus ultricies molestie
+                                        rhoncus.</p>
+                                </div>
+
+                                <div class="carousel-slide fade">
+                                    <figure id="test-video3"
+                                        onclick="videoslider('https://www.rebeccamagar.com/assets/videos/test-video-3.mp4')">
+                                        <video id="video3 video" controls preload="metadata"
+                                            poster="https://www.rebeccamagar.com/assets/videos/test-video-3.jpg">
+                                            <source src="https://www.rebeccamagar.com/assets/videos/test-video-3.mp4"
+                                                type="video/mp4">
+                                            <source src="https://www.rebeccamagar.com/assets/videos/test-video-3.webm"
+                                                type="video/webm">
+                                            <source src="https://www.rebeccamagar.com/assets/videos/test-video-3.ogg"
+                                                type="video/ogg">
+                                            <!-- Flash fallback -->
+                                            <object type="application/x-shockwave-flash"
+                                                data="flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-3.mp4">
+                                                <param name="movie"
+                                                    value="flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-3.mp4" />
+                                                <param name="allowfullscreen" value="true" />
+                                                <param name="wmode" value="transparent" />
+                                                <param name="flashvars"
+                                                    value="controlbar=over&amp;image=https://www.rebeccamagar.com/assets/videos/test-video-3.jpg&amp;file=flash-player.swf?videoUrl=https://www.rebeccamagar.com/assets/videos/test-video-3.mp4" />
+                                                <img alt="Test 3 Video Poster"
+                                                    src="https://www.rebeccamagar.com/assets/videos/test-video-3.jpg"
+                                                    title="No video playback possible, please download the video from the link below." />
+                                            </object>
+                                            <!-- Offer download -->
+                                            <a href="https://www.rebeccamagar.com/assets/videos/test-video-3.mp4">Download
+                                                MP4</a>
+                                        </video>
+                                    </figure>
+                                </div>
+
+                                <div class="carousel-slide fade">
+                                    <img src="https://www.rebeccamagar.com/assets/videos/test-image.jpg" width="100%"
+                                        alt="Test Image" />
+                                </div>
+
+                                <a class="prev" onclick='plusSlides(-1)'><i class="fas fa-chevron-left fa-2xl"></i></a>
+                                <a class="next" onclick='plusSlides(1)'><i class="fas fa-chevron-right fa-2xl"></i></a>
+                                <a class="next" onclick='plusSlides(2)'><i class="fas fa-chevron-right fa-2xl"></i></a>
+                                <a class="next" onclick='plusSlides(3)'><i class="fas fa-chevron-right fa-2xl"></i></a>
+                                <a class="next" onclick='plusSlides(4)'><i class="fas fa-chevron-right fa-2xl"></i></a>
+                            </div>
+                            <div style="text-align: center;">
+                                <span class="carousel-dot" onclick='currentSlide(1)'></span>
+                                <span class="carousel-dot" onclick='currentSlide(2)'></span>
+                                <span class="carousel-dot" onclick='currentSlide(3)'></span>
+                                <span class="carousel-dot" onclick='currentSlide(4)'></span>
+                                <span class="carousel-dot" onclick='currentSlide(5)'></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="jquery.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
